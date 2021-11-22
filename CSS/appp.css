@@ -1,0 +1,27 @@
+/* * {
+    background-color: cyan;
+} */
+
+body {
+    background-color: #f4f1de;
+}
+
+button {
+    font-size: 30px;
+}
+
+h1, h2 {
+    color: #3d405b;
+}
+
+#signup{
+    background-color: #ddb892;
+}
+
+.post a {
+    color: deeppink;
+}
+
+footer a {
+    color: forestgreen;
+}
