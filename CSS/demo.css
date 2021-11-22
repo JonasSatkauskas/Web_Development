@@ -3,6 +3,8 @@ h1 {
     font-weight: normal;
     text-decoration: red underline wavy;
     letter-spacing: 15px;
+    font-size: 75px;
+    font-family: Didot, Arial;
 }
 
 p {

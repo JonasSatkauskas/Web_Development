@@ -1,3 +1,7 @@
 HTML entities:
 https://www.freeformatter.com/html-entities.html
 https://www.toptal.com/designers/htmlarrows/symbols/
+
+CSS:
+Apie tai kokius šriftus galima rasti pas Windows ar Apple vartotojus:
+https://www.cssfontstack.com/
