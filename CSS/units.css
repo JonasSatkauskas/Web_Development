@@ -15,3 +15,20 @@ h1 {
     border: 2px solid salmon;
     line-height: 100px;
 }
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+article {
+    font-size: 25px;
+}
+
+ul {
+    font-size: 2rem;
+    /* REM naudoja html default'inę reikšmę. EM naudoja tėvinio elemento reikšmę */
+}
