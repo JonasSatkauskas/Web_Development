@@ -1,0 +1,23 @@
+h1 {
+    background-color: burlywood;
+    border: 2px solid black;
+    /* display: inline; */
+    width: 200px;
+    padding: 50px;
+    /* display: none; */
+}
+
+span {
+    background-color: blanchedalmond;
+    border: 2px solid wheat;
+    padding: 20px;
+    margin: 20px;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(37, 12, 37, 0.397);
+    border: 3px solid navajowhite;
+    display: inline-block;
+}
