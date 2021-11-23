@@ -19,9 +19,72 @@ h1, h2 {
 }
 
 .post a {
-    color: deeppink;
+    color: rgba(63, 0, 82, 0.596);
 }
 
 footer a {
     color: forestgreen;
+}
+
+h2 + button {
+    font-size: 20px;
+    background-color: #fde5cd;
+}
+
+footer > a {
+    color: rgba(123, 0, 139, 0.801);
+}
+
+input[type="password"] {
+    color: rgb(255, 0, 0);
+}
+
+/* section[class="post"]{
+    background-color: darkviolet;
+} */
+
+
+
+.post a:hover {
+    background-color: grey;
+}
+
+.post button:active {
+    background-color: #fca311;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #fde1d1;
+}
+
+h2::first-letter {
+    font-size: 40px;
+}
+
+p::first-line {
+    color:indianred ;
+}
+
+p::selection {
+    background-color: rgb(194, 191, 0);
+}
+
+h1, h2 {
+    color: rgb(22, 12, 77);
+}
+
+.post button:hover {
+    background-color: #cb997e;
+    color: gainsboro;
+}
+
+/* More specifict selector wins (there's a link of specificity calculator in links.txt */
+
+/* button:hover {
+    background-color: olive;
+    font-size: 10px;
+} */
+
+button {
+    background-color: peachpuff !important;
 }
