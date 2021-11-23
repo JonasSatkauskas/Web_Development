@@ -1,0 +1,43 @@
+h1 {
+    color: peachpuff;
+    background-color: rgba(70, 131, 180, 0.507);
+    width: 200px;
+}
+
+body {
+    background-color: slategrey;
+    
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    background-color: #ddbea9;
+}
+
+#one {
+    background-color: #edf6f9;
+    border-width: 5px;
+    border-color: tan;
+    border-style: solid;
+    box-sizing: border-box;
+    
+}
+
+#two {
+    background-color: #edf6f9ce;
+    border-color: #fcd5ce;
+    border-width: 5px;
+    border-style: ridge;
+    box-sizing: border-box;
+    border-left-width: 6px;
+    border-radius: 10px 100px / 120px;
+}
+
+#three {
+    background-color: #f2cc8f;
+    border: 5px solid rgba(153, 90, 13, 0.712);
+    /* box-sizing: border-box; */
+    border-right-style: dotted;
+    border-radius: 50%;
+}
