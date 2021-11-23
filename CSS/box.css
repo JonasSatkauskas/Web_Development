@@ -2,10 +2,15 @@ h1 {
     color: peachpuff;
     background-color: rgba(70, 131, 180, 0.507);
     width: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    margin-bottom: 20px;
 }
 
 body {
     background-color: slategrey;
+    margin:0%;
     
 }
 
@@ -16,11 +21,15 @@ div {
 }
 
 #one {
+    /* padding: 20px; */
     background-color: #edf6f9;
     border-width: 5px;
     border-color: tan;
     border-style: solid;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    padding-right: 50px;
+    margin-left: 70px;
+    margin-bottom: 50px;
     
 }
 
@@ -32,6 +41,8 @@ div {
     box-sizing: border-box;
     border-left-width: 6px;
     border-radius: 10px 100px / 120px;
+    margin: 100px;
+   
 }
 
 #three {
@@ -40,4 +51,13 @@ div {
     /* box-sizing: border-box; */
     border-right-style: dotted;
     border-radius: 50%;
+    margin-left: 100px;
 }
+
+button {
+    /* padding: 20px; */
+    /* padding: 10px 20px; */
+    padding: 10px 20px 30px 40px;
+
+}
+
