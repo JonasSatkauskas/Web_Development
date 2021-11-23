@@ -5,3 +5,6 @@ https://www.toptal.com/designers/htmlarrows/symbols/
 CSS:
 Apie tai kokius šriftus galima rasti pas Windows ar Apple vartotojus:
 https://www.cssfontstack.com/
+
+Specificity calculator:
+https://specificity.keegan.st/
