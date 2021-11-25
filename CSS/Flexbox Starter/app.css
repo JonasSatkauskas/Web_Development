@@ -11,11 +11,13 @@ h1 {
     margin: 0 auto;
     border: 5px solid #003049;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     /* justify-content: space-evenly; */
     justify-content: center;
     flex-wrap: wrap;      /* Allign main axis */
-    align-items: center;  /* Allign cross axis */
+    align-items: flex-start;  /* Allign cross axis */
+    /* align-content: center;  */
+    /* It works only when we have flex-wrap: wrap or wrap-reverse */ 
 }
 
 #container div {
@@ -23,3 +25,10 @@ h1 {
     height: 200px;
 }
 
+div:nth-of-type(2) {
+    align-self: center;
+}
+
+div:nth-of-type(3) {
+    align-self: flex-end;
+}
