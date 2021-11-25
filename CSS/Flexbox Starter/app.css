@@ -7,14 +7,14 @@ h1 {
 #container {
     background-color: #003049;
     width: 90%;
-    height: 500px;
+    /* height: 500px; */
     margin: 0 auto;
     border: 5px solid #003049;
     display: flex;
     flex-direction: row;
     /* justify-content: space-evenly; */
     justify-content: center;
-    flex-wrap: wrap;      /* Allign main axis */
+    /* flex-wrap: wrap;      Allign main axis */
     align-items: flex-start;  /* Allign cross axis */
     /* align-content: center;  */
     /* It works only when we have flex-wrap: wrap or wrap-reverse */ 
@@ -23,12 +23,23 @@ h1 {
 #container div {
     width: 200px;
     height: 200px;
+    flex-basis: 200px;
+    /* max-width: 300px; */
 }
 
-div:nth-of-type(2) {
+div:nth-of-type(1) {
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+
+div:nth-of-type(5) {
+    flex-grow: 2;
+}
+
+/* div:nth-of-type(2) {
     align-self: center;
 }
 
 div:nth-of-type(3) {
     align-self: flex-end;
-}
+} */
