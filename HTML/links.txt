@@ -17,3 +17,9 @@ https://easings.net/
 
 Good source for free to use images:
 https://unsplash.com
+
+Free to use HTML/CSS templates:
+codepen.io
+
+Code to reset your CSS to plain CSS:
+https://meyerweb.com/eric/tools/css/reset/
