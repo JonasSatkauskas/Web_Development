@@ -23,3 +23,8 @@ codepen.io
 
 Code to reset your CSS to plain CSS:
 https://meyerweb.com/eric/tools/css/reset/
+
+JS:
+
+Unicode chart (values for letters/symbols/etc.):
+https://www.unicode.org/charts/PDF/U0000.pdf
